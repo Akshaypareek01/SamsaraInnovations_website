@@ -9,7 +9,7 @@ const Services3 = () => {
     <>
       <Navbar />
 
-      <PageBanner pageTitle="Services Style Three" />
+      <PageBanner pageTitle="Our Services" />
 
       <ServicesStyle3 />
 

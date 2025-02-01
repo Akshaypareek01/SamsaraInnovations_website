@@ -112,11 +112,11 @@ const Navbar = () => {
 
                   <li className="nav-item">
                     <Link
-                      href="/contact/"
+                      href="#"
                       onClick={toggleNavbar}
-                      className={`nav-link ${
-                        currentPath == "/contact/" && "active"
-                      }`}
+                      // className={`nav-link ${
+                      //   currentPath == "/contact/" && "active"
+                      // }`}
                     >
                       Career
                     </Link>
@@ -138,20 +138,20 @@ const Navbar = () => {
               </div>
 
               {/* Others option */}
-              <div className="others-option">
-                {/* <Link href="/cart/" className="cart-wrapper-btn">
+              {/* <div className="others-option">
+                <Link href="/cart/" className="cart-wrapper-btn">
                   <Icon.ShoppingCart />
                   <span>{cart.length}</span>
-                </Link> */}
+                </Link>
 
                 <Link href="/contact/" className="btn btn-light">
                   Support
                 </Link>
 
-                {/* <Link href="/login/" className="btn btn-primary">
+                <Link href="/login/" className="btn btn-primary">
                   Login
-                </Link> */}
-              </div>
+                </Link>
+              </div> */}
             </nav>
           </div>
         </div>
