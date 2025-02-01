@@ -49,7 +49,7 @@ const Navbar = () => {
           <div className="container">
             <nav className="navbar navbar-expand-md navbar-light">
               <Link href="/" className="navbar-brand">
-                <Image src={logo} alt="logo" width={140} height={56} />
+                <Image src={logo} alt="logo" width={150} height={66} />
               </Link>
 
               <button
@@ -110,6 +110,18 @@ const Navbar = () => {
                    
                   </li>
 
+                  <li className="nav-item">
+                    <Link
+                      href="/contact/"
+                      onClick={toggleNavbar}
+                      className={`nav-link ${
+                        currentPath == "/contact/" && "active"
+                      }`}
+                    >
+                      Career
+                    </Link>
+                  </li>
+
 
                   <li className="nav-item">
                     <Link
@@ -136,9 +148,9 @@ const Navbar = () => {
                   Support
                 </Link>
 
-                <Link href="/login/" className="btn btn-primary">
+                {/* <Link href="/login/" className="btn btn-primary">
                   Login
-                </Link>
+                </Link> */}
               </div>
             </nav>
           </div>

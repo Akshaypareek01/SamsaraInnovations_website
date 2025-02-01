@@ -19,13 +19,13 @@ const About2 = () => {
 
       <Team />
 
-      <FeedbackStyleFour />
+      {/* <FeedbackStyleFour /> */}
 
-      <FunFactsArea />
+      {/* <FunFactsArea /> */}
 
-      <div className="pb-80">
+      {/* <div className="pb-80">
         <Partner />
-      </div>
+      </div> */}
 
       <Footer />
     </>

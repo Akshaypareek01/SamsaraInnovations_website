@@ -19,8 +19,7 @@ const Team = () => {
             <h2>Our Awesome Team</h2>
             <div className="bar"></div>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Passion and expertise from our team drive innovation in health and wellness, creating impactful solutions that pave the way for a healthier future.
             </p>
           </div>
         </div>

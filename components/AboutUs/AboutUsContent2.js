@@ -27,16 +27,13 @@ const AboutUsContent2 = () => {
                 <div className="bar"></div>
 
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Founded in 2024, Samsara Innovation aims to transform health and wellness through AI-driven products and services, 
+                
                 </p>
 
                 <p>
-                  Nullam quis ante. Etiam sit amet orci eget eros faucibus
-                  tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec
-                  sodales sagittis magna. Sed consequat, leo eget bibendum
-                  sodales, augue velit cursus nunc.Donec vitae sapien ut libero
-                  venenatis faucibus tempus.
+                adopting a holistic approach. We’re dedicated to supporting new startups in this sector, providing 
+                innovative solutions and expertise to thrive in the evolving landscape of health and wellness.
                 </p>
               </div>
             </div>
@@ -48,11 +45,11 @@ const AboutUsContent2 = () => {
             <div className="row justify-content-center">
               <div className="col-lg-4 col-md-6 col-sm-6">
                 <div className="about-text">
-                  <h3>Our History</h3>
+                  <h3>Who We Are</h3>
                   <p>
-                    Lorem ipsum dolor sit amet, con se ctetur adipiscing elit.
-                    In sagittis eg esta ante, sed viverra nunc tinci dunt nec
-                    elei fend et tiram.
+                  Samsara Innovations Pvt Ltd is a consulting firm providing AI technology and HR solutions.
+ It helps startups navigate AI advancements and talent management challenges, specializing
+ in healthcare and wellness sectors.
                   </p>
                 </div>
               </div>
@@ -61,20 +58,21 @@ const AboutUsContent2 = () => {
                 <div className="about-text">
                   <h3>Our Mission</h3>
                   <p>
-                    Lorem ipsum dolor sit amet, con se ctetur adipiscing elit.
-                    In sagittis eg esta ante, sed viverra nunc tinci dunt nec
-                    elei fend et tiram.
+                  Samsara Innovations aims to empower businesses by providing AI Tech, Strategy and HR
+ services, enabling growth and innovation. The company delivers tailored strategies to help
+ clients overcome technical and talent challenges, streamline operations, business
+ continuity, and build high-performing teams.
                   </p>
                 </div>
               </div>
 
               <div className="col-lg-4 col-md-6 col-sm-6">
                 <div className="about-text">
-                  <h3>Who We Are</h3>
+                  <h3>Our Vision</h3>
                   <p>
-                    Lorem ipsum dolor sit amet, con se ctetur adipiscing elit.
-                    In sagittis eg esta ante, sed viverra nunc tinci dunt nec
-                    elei fend et tiram.
+                  Samsara Innovations strives to be a trusted partner in AI and HR consulting, helping
+ businesses focus on strategy and growth while providing innovative solutions to stay ahead
+ in their industries.
                   </p>
                 </div>
               </div>

@@ -41,7 +41,7 @@ const MainBanner = () => {
                       data-aos-duration="500"
                       data-aos-once="true"
                     >
-                      Secure IT Solutions for a more secure environment
+                      Develop AI Solutions for a Holistic wellbeing
                     </h1>
                     <p
                       data-aos="fade-up"
@@ -49,9 +49,8 @@ const MainBanner = () => {
                       data-aos-duration="500"
                       data-aos-once="true"
                     >
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                      sed do eiusmod tempor incididunt ut labore et dolore magna
-                      aliqua. Quis ipsum suspendisse ultrices gravida
+                      AI innovations in holistic wellness include personalized fitness, mental health support, 
+                      mindfulness apps, sleep tracking, stress management, nutrition and more.
                     </p>
 
                     <Link

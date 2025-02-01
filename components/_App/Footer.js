@@ -114,7 +114,7 @@ const Footer = () => {
 
                   <li>
                     <Icon.Mail />
-                    Email:{" "}<a href="mailto:info.samsarainnovations@gmail.com">samsara@gmail.com</a>
+                    Email:{" "}<a href="mailto:info.samsarainnovations@gmail.com">Info.samsarainnovations@gmail.com</a>
                   </li>
 
                   <li>
@@ -123,7 +123,7 @@ const Footer = () => {
                   </li>
                 </ul>
 
-                <ul className="social-links">
+                {/* <ul className="social-links">
                   <li>
                     <a
                       href="https://www.facebook.com/"
@@ -163,17 +163,15 @@ const Footer = () => {
                       <Icon.Linkedin />
                     </a>
                   </li>
-                </ul>
+                </ul> */}
               </div>
             </div>
 
             <div className="col-lg-12 col-md-12">
               <div className="copyright-area">
                 <p>
-                  Copyright &copy; {currentYear} StartP. All rights reserved by{" "}
-                  <a href="https://envytheme.com/" target="_blank">
-                    EnvyTheme
-                  </a>
+                  Copyright &copy; {currentYear} Samsara Innovations Pvt ltd. All rights reserved
+                  
                 </p>
               </div>
             </div>
