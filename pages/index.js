@@ -26,19 +26,19 @@ const Index = () => {
 
       <OurFeatures />
 
-      <Team />
+      {/* <Team /> */}
 
       <FunFactsArea />
 
       <RecentWorks />
 
-      <PricingStyleOne />
+      {/* <PricingStyleOne /> */}
 
       <Feedback />
 
-      <Partner />
+      {/* <Partner /> */}
 
-      <BlogPost />
+      {/* <BlogPost /> */}
 
       <Footer />
     </>

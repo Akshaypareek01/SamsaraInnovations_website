@@ -119,7 +119,7 @@ const Footer = () => {
 
                   <li>
                     <Icon.PhoneCall />
-                    Phone: <a href="tel:321984754">+91 63601 98390</a>
+                    Phone: <a href="tel:+91 6360198390">+91 63601 98390</a>
                   </li>
                 </ul>
 
