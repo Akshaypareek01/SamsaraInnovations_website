@@ -5,7 +5,7 @@ import DesignAndDevelopment from "./DesignAndDevelopment";
 const ServicesArea = () => {
   return (
     <>
-      <CloudHostingServices />
+      {/* <CloudHostingServices /> */}
 
       <DesignAndDevelopment />
     </> 

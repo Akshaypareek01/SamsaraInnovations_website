@@ -53,7 +53,7 @@ const MainBanner = () => {
                       mindfulness apps, sleep tracking, stress management, nutrition and more.
                     </p>
 
-                    <Link
+                    {/* <Link
                       href="/contact"
                       className="btn btn-primary"
                       data-aos="fade-up"
@@ -62,7 +62,7 @@ const MainBanner = () => {
                       data-aos-once="true"
                     >
                       Get Started
-                    </Link>
+                    </Link> */}
                   </div>
                 </div>
 

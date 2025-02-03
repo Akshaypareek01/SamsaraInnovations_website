@@ -17,7 +17,7 @@ const About2 = () => {
 
       <AboutUsContent2 />
 
-      {/* <Team /> */}
+      <Team />
 
       {/* <FeedbackStyleFour /> */}
 

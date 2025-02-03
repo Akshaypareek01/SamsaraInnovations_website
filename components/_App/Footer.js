@@ -27,10 +27,9 @@ const Footer = () => {
                   </Link>
                 </div>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi.
+                Samsara Innovations Pvt Ltd is a consulting firm providing AI technology and HR solutions.
+ It helps startups navigate AI advancements and talent management challenges, specializing
+ in healthcare and wellness sectors.
                 </p>
               </div>
             </div>
@@ -52,7 +51,7 @@ const Footer = () => {
                   <li>
                     <Link href="/services">Services</Link>
                   </li>
-                  <li>
+                  {/* <li>
                     <Link href="/features">Features</Link>
                   </li>
                   <li>
@@ -60,7 +59,7 @@ const Footer = () => {
                   </li>
                   <li>
                     <Link href="/blog">Latest News</Link>
-                  </li>
+                  </li> */}
                 </ul>
               </div>
             </div>

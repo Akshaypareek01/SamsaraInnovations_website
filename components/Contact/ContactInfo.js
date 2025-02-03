@@ -7,7 +7,22 @@ const ContactInfo = () => {
       <div className="contact-info-area ptb-80">
         <div className="container">
           <div className="row justify-content-center">
-            <div className="col-lg-4 col-md-6 col-sm-6">
+          <div className="col-lg-3 col-md-6 col-sm-6">
+              <div className="contact-info-box">
+                <div className="icon">
+                  <Icon.Linkedin />
+                </div>
+                <h3>LinkedIn</h3>
+                {/* <p>
+                  <a href="mailto:admin@startp.com">admin@startp.com</a>
+                </p> */}
+                <p>
+                  <a href="https://www.linkedin.com/company/samsarawelllness" target="blank">Samsara</a>
+                </p>
+              </div>
+            </div>
+
+            <div className="col-lg-3 col-md-6 col-sm-6">
               <div className="contact-info-box">
                 <div className="icon">
                   <Icon.Mail />
@@ -22,19 +37,22 @@ const ContactInfo = () => {
               </div>
             </div>
 
-            <div className="col-lg-4 col-md-6 col-sm-6">
+            <div className="col-lg-3 col-md-6 col-sm-6">
               <div className="contact-info-box">
                 <div className="icon">
                   <Icon.MapPin />
                 </div>
                 <h3>Visit Here</h3>
                 <p>
-                Bangalore (INDIA)  
+                Head Office (Goa, India)
+                </p>
+                <p>
+                Corporate Office (Bangalore, India )
                 </p>
               </div>
             </div>
 
-            <div className="col-lg-4 col-md-6 col-sm-6">
+            <div className="col-lg-3 col-md-6 col-sm-6">
               <div className="contact-info-box">
                 <div className="icon">
                   <Icon.Phone />

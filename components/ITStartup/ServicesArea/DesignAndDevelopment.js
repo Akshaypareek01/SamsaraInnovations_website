@@ -138,57 +138,62 @@ const DesignAndDevelopment = () => {
                 <h2>Design & Development</h2>
                 <div className="bar"></div>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Empowering businesses with custom AI solutions, automation, 
+                and data-driven insights for innovation and growth.
                 </p>
               </div>
 
               <div className="row">
                 <div className="col-lg-6 col-md-6">
                   <div className="box">
-                    <Icon.Layout /> Responsive design
+                    <Icon.Layout /> AI Strategy Consulting
                   </div>
                 </div>
 
                 <div className="col-lg-6 col-md-6">
                   <div className="box">
-                    <Icon.Code /> React web development
+                    <Icon.Code /> Custom AI Solutions
                   </div>
                 </div>
 
                 <div className="col-lg-6 col-md-6">
                   <div className="box">
-                    <Icon.Smartphone /> Android apps development
+                    <Icon.Smartphone /> AI Implementation & Integration
                   </div>
                 </div>
 
                 <div className="col-lg-6 col-md-6">
                   <div className="box">
-                    <Icon.Code /> Laravel web development
+                    <Icon.Code /> AI Ethics & Governance
                   </div>
                 </div>
 
                 <div className="col-lg-6 col-md-6">
                   <div className="box">
-                    <Icon.Smartphone /> iOS apps development
+                    <Icon.Smartphone /> AI-powered Automation
                   </div>
                 </div>
 
                 <div className="col-lg-6 col-md-6">
                   <div className="box">
-                    <Icon.Percent /> UX/UI design
+                    <Icon.Percent /> AI for Predictive Analytics
                   </div>
                 </div>
 
                 <div className="col-lg-6 col-md-6">
                   <div className="box">
-                    <Icon.ShoppingCart /> E-commerce development
+                    <Icon.ShoppingCart /> AI Training & Support
                   </div>
                 </div>
 
                 <div className="col-lg-6 col-md-6">
                   <div className="box">
-                    <Icon.CheckCircle /> Print ready design
+                    <Icon.CheckCircle /> AI Prototyping & Research
+                  </div>
+                </div>
+                <div className="col-lg-6 col-md-6">
+                  <div className="box">
+                    <Icon.CheckCircle /> UX/ UI Design
                   </div>
                 </div>
               </div>

@@ -2012,8 +2012,10 @@ Team CSS
 }
 .single-team .team-image img {
   border: 3px solid #cdf1d8;
-  width: auto !important;
-  border-radius: 50%;
+  /* width: auto !important; */
+  width: 125;
+  height: 125;
+  /* border-radius: 50%; */
   display: inline-block !important;
   transition: 0.5s;
 }

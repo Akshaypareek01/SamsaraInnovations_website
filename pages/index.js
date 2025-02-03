@@ -24,17 +24,17 @@ const Index = () => {
 
       <ServicesArea />
 
-      <OurFeatures />
+      {/* <OurFeatures /> */}
 
       {/* <Team /> */}
 
-      <FunFactsArea />
+      {/* <FunFactsArea /> */}
 
-      <RecentWorks />
+      {/* <RecentWorks /> */}
 
       {/* <PricingStyleOne /> */}
 
-      <Feedback />
+      {/* <Feedback /> */}
 
       {/* <Partner /> */}
 
