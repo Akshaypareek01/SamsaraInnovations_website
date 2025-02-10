@@ -3,7 +3,8 @@ import Navbar from "@/components/_App/Navbar";
 import Footer from "@/components/_App/Footer";
 import PageBanner from "@/components/Common/PageBanner";
 import ServicesStyle3 from "@/components/Services/ServicesStyle3";
-
+import serviceImg1 from "/public/images/services-image/service-image1.png";
+import Image from "next/image";
 const Services3 = () => {
   return (
     <>
