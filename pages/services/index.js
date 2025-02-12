@@ -9,7 +9,7 @@ const Services = () => {
     <>
       <Navbar />
 
-      <PageBanner pageTitle="Services Style One" />
+      {/* <PageBanner pageTitle="Services Style One" /> */}
 
       <ServicesStyle1 />
 

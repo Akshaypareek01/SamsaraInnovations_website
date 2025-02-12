@@ -5,17 +5,18 @@ import PageBanner from "@/components/Common/PageBanner";
 import ServicesStyle3 from "@/components/Services/ServicesStyle3";
 import serviceImg1 from "/public/images/services-image/service-image1.png";
 import Image from "next/image";
+import ServicesStyle2 from "@/components/Services/ServicesStyle2";
 const Services3 = () => {
   return (
     <>
       <Navbar />
 
-      {/* <PageBanner pageTitle="Our Services" /> */}
+      <PageBanner pageTitle="Our Services" />
 
-      {/* <ServicesStyle3 /> */}
+      <ServicesStyle3 />
 
-       <div style={{height:"100vh",display:"flex",justifyContent:"center",alignItems:"center",flexDirection:"column"}}>
-           {/* <PageBanner pageTitle="Comming Soon" /> */}
+       {/*<div style={{height:"100vh",display:"flex",justifyContent:"center",alignItems:"center",flexDirection:"column"}}>
+     
        <div className="image">
                          <Image
                            src={serviceImg1}
@@ -32,7 +33,7 @@ const Services3 = () => {
                           >
                             Coming soon
                           </h1>
-           </div>
+           </div>*/}
 
       <Footer />
     </>

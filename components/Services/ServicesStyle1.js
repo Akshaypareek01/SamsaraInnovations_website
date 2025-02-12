@@ -23,11 +23,10 @@ const ServicesStyle1 = () => {
                   <Icon.Settings />
                 </div>
                 <h3>
-                  <Link href="/services/service-details/">Incredible Infrastructure</Link>
+                  <Link href="/services/service-details/">AI Strategy Consulting</Link>
                 </h3>
                 <p>
-                  Lorem ipsum dolor amet, adipiscing, sed do eiusmod tempor
-                  incididunt ut labore dolore magna aliqua.
+                Gain insights on how AI can transform businesses, optimize processes, and boost efficiency. We help develop roadmaps, implementation strategies, and risk management plans.
                 </p>
               </div>
             </div>
@@ -38,11 +37,10 @@ const ServicesStyle1 = () => {
                   <Icon.Mail />
                 </div>
                 <h3>
-                  <Link href="/services/service-details/">Email Notifications</Link>
+                  <Link href="/services/service-details/">Custom AI Solutions</Link>
                 </h3>
                 <p>
-                  Lorem ipsum dolor amet, adipiscing, sed do eiusmod tempor
-                  incididunt ut labore dolore magna aliqua.
+                We build tailor-made AI models for various industries, including finance, healthcare, and retail. Our services include chatbots, recommendation systems, and predictive analytics.
                 </p>
               </div>
             </div>
@@ -53,11 +51,10 @@ const ServicesStyle1 = () => {
                   <Icon.Bell />
                 </div>
                 <h3>
-                  <Link href="/services/service-details/">Best Analytics Audits</Link>
+                  <Link href="/services/service-details/">AI Implementation & Integration</Link>
                 </h3>
                 <p>
-                  Lorem ipsum dolor amet, adipiscing, sed do eiusmod tempor
-                  incididunt ut labore dolore magna aliqua.
+                Seamlessly integrate AI into your existing systems with our Generative AI and traditional AI solutions to enhance business efficiency.
                 </p>
               </div>
             </div>
@@ -68,11 +65,10 @@ const ServicesStyle1 = () => {
                   <Icon.Grid />
                 </div>
                 <h3>
-                  <Link href="/services/service-details/">Simple Dashboard</Link>
+                  <Link href="/services/service-details/">Data Analytics & AI</Link>
                 </h3>
                 <p>
-                  Lorem ipsum dolor amet, adipiscing, sed do eiusmod tempor
-                  incididunt ut labore dolore magna aliqua.
+                Unlock powerful insights from data with our AI-driven solutions, enabling better decision-making and business growth.
                 </p>
               </div>
             </div>
@@ -83,11 +79,10 @@ const ServicesStyle1 = () => {
                   <Icon.Info />
                 </div>
                 <h3>
-                  <Link href="/services/service-details/">Information Retrieval</Link>
+                  <Link href="/services/service-details/">AI Ethics & Governance</Link>
                 </h3>
                 <p>
-                  Lorem ipsum dolor amet, adipiscing, sed do eiusmod tempor
-                  incididunt ut labore dolore magna aliqua.
+                Ensure ethical AI applications with transparent models, bias reduction techniques, data privacy compliance, and governance best practices.
                 </p>
               </div>
             </div>
@@ -98,11 +93,10 @@ const ServicesStyle1 = () => {
                   <Icon.HardDrive />
                 </div>
                 <h3>
-                  <Link href="/services/service-details/">Deep Technical SEO</Link>
+                  <Link href="/services/service-details/">AI-powered Automation</Link>
                 </h3>
                 <p>
-                  Lorem ipsum dolor amet, adipiscing, sed do eiusmod tempor
-                  incididunt ut labore dolore magna aliqua.
+                Automate repetitive tasks with AI to save time and reduce operational costs. Solutions include robotic process automation (RPA) and intelligent workflow automation.
                 </p>
               </div>
             </div>
@@ -113,11 +107,10 @@ const ServicesStyle1 = () => {
                   <Icon.MousePointer />
                 </div>
                 <h3>
-                  <Link href="/services/service-details/">Drag & Drop Functionality</Link>
+                  <Link href="/services/service-details/">AI for Predictive Analytics</Link>
                 </h3>
                 <p>
-                  Lorem ipsum dolor amet, adipiscing, sed do eiusmod tempor
-                  incididunt ut labore dolore magna aliqua.
+                Leverage AI-driven predictive models for demand forecasting, financial predictions, and risk assessments to gain a competitive edge.
                 </p>
               </div>
             </div>
@@ -128,11 +121,10 @@ const ServicesStyle1 = () => {
                   <Icon.Bell />
                 </div>
                 <h3>
-                  <Link href="/services/service-details/">Deadline Reminders</Link>
+                  <Link href="/services/service-details/">AI in Specific Industries</Link>
                 </h3>
                 <p>
-                  Lorem ipsum dolor amet, adipiscing, sed do eiusmod tempor
-                  incididunt ut labore dolore magna aliqua.
+                We specialize in AI solutions for the wellness industry, optimizing processes and enhancing user experiences.
                 </p>
               </div>
             </div>
@@ -143,14 +135,26 @@ const ServicesStyle1 = () => {
                   <Icon.Send />
                 </div>
                 <h3>
-                  <Link href="/services/service-details/">Modern Keyword Analysis</Link>
+                  <Link href="/services/service-details/">AI Training & Support</Link>
                 </h3>
                 <p>
-                  Lorem ipsum dolor amet, adipiscing, sed do eiusmod tempor
-                  incididunt ut labore dolore magna aliqua.
+                Empower your team with AI training programs, ongoing support, and AI model maintenance services to maximize efficiency.
                 </p>
               </div>
             </div>
+            {/* <div className="col-lg-4 col-sm-6">
+              <div className="single-services-box">
+                <div className="icon bg-eb6b3d">
+                  <Icon.Cpu />
+                </div>
+                <h3>
+                  <Link href="/services/service-details/">AI Prototyping & Research</Link>
+                </h3>
+                <p>
+                Develop AI prototypes and explore emerging AI technologies with our expertise in mathematical modeling and optimization strategies.
+                </p>
+              </div>
+            </div> */}
           </div>
         </div>
       </div>

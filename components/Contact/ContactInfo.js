@@ -37,20 +37,7 @@ const ContactInfo = () => {
               </div>
             </div>
 
-            <div className="col-lg-3 col-md-6 col-sm-6">
-              <div className="contact-info-box">
-                <div className="icon">
-                  <Icon.MapPin />
-                </div>
-                <h3>Visit Here</h3>
-                <p>
-                Head Office (Goa, India)
-                </p>
-                <p>
-                Corporate Office (Bangalore, India )
-                </p>
-              </div>
-            </div>
+         
 
             <div className="col-lg-3 col-md-6 col-sm-6">
               <div className="contact-info-box">
@@ -62,6 +49,23 @@ const ContactInfo = () => {
                   <a href="tel:+91 6360198390">+91 63601 98390</a>
                 </p>
                
+              </div>
+
+             
+            </div>
+
+            <div className="col-lg-3 col-md-6 col-sm-6">
+              <div className="contact-info-box">
+                <div className="icon">
+                  <Icon.MapPin />
+                </div>
+                <h3>Visit Here</h3>
+                <p>
+                Branch office (Goa, India)
+                </p>
+                <p>
+                Corporate Office (Bangalore, India )
+                </p>
               </div>
             </div>
           </div>

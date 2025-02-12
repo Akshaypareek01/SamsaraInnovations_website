@@ -85,10 +85,10 @@ const Navbar = () => {
 
                   <li className="nav-item">
                     <Link
-                      href="/services-3/"
+                      href="/services/"
                       onClick={toggleNavbar}
                       className={`nav-link ${
-                        currentPath == "/services-3/" && "active"
+                        currentPath == "/services/" && "active"
                       }`}
                     >
                       Services

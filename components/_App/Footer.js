@@ -14,7 +14,7 @@ const Footer = () => {
         <div className="container">
           <div className="row">
             <div
-              className="col-lg-3 col-md-6"
+              className="col-lg-2 col-md-6"
               data-aos="fade-in"
               data-aos-delay="100"
               data-aos-duration="500"
@@ -27,9 +27,7 @@ const Footer = () => {
                   </Link>
                 </div>
                 <p>
-                Samsara Innovations Pvt Ltd is a consulting firm providing AI technology and HR solutions.
- It helps startups navigate AI advancements and talent management challenges, specializing
- in healthcare and wellness sectors.
+                Samsara Innovations Pvt Ltd provides AI and HR solutions, specializing in healthcare and wellness startups.
                 </p>
               </div>
             </div>
@@ -46,7 +44,7 @@ const Footer = () => {
 
                 <ul className="list">
                   <li>
-                    <Link href="/about">About Us</Link>
+                    <Link href="/about-2">About Us</Link>
                   </li>
                   <li>
                     <Link href="/services">Services</Link>
@@ -75,18 +73,18 @@ const Footer = () => {
                 <h3>Support</h3>
 
                 <ul className="list">
-                  <li>
+                  {/* <li>
                     <Link href="/faq">FAQ's</Link>
-                  </li>
+                  </li> */}
                   <li>
                     <Link href="/privacy-policy">Privacy Policy</Link>
                   </li>
                   <li>
                     <Link href="/terms-conditions">Terms & Conditions</Link>
                   </li>
-                  <li>
+                  {/* <li>
                     <Link href="/team">Team</Link>
-                  </li>
+                  </li> */}
                   <li>
                     <Link href="/contact">Contact Us</Link>
                   </li>
@@ -95,7 +93,7 @@ const Footer = () => {
             </div>
 
             <div
-              className="col-lg-3 col-md-6"
+              className="col-lg-4 col-md-6"
               data-aos="fade-in"
               data-aos-delay="400"
               data-aos-duration="500"
@@ -113,7 +111,7 @@ const Footer = () => {
 
                   <li>
                     <Icon.Mail />
-                    Email:{" "}<a href="mailto:info.samsarainnovations@gmail.com">Info.samsarainnovations@gmail.com</a>
+                    Email:{" "}<a  href="mailto:info.samsarainnovations@gmail.com">Info.samsarainnovations@gmail.com</a>
                   </li>
 
                   <li>

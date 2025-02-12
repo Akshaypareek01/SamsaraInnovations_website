@@ -1,38 +1,35 @@
 import nodemailer from "nodemailer";
-import sgTransport from "nodemailer-sendgrid-transport";
 
-const transporter = {
+const transporter = nodemailer.createTransport({
+  service: "gmail",
   auth: {
-    // Update your SendGrid API key here
-    api_key: "...",
+    user: "akshay96102@gmail.com", // Your Gmail address
+    pass: "omno ouxe crch hora",   // Your Gmail password
   },
-};
-
-const mailer = nodemailer.createTransport(sgTransport(transporter));
+});
 
 export default async (req, res) => {
-  // console.log(req.body)
   const { name, email, number, subject, text } = req.body;
 
   const data = {
-    // Update your email here
-    to: "exampleyourdomain@gmail.com",
-    from: email,
-    subject: "Hi there",
-    text: text,
+    to: "Info.samsarainnovations@gmail.com", // Recipient's email address
+    from: email, // Sender's email (from the form submission)
+    subject: subject, // Subject of the email
+    text: text, // Plain text message
     html: `
         <b>From:</b> ${name} <br /> 
         <b>Number:</b> ${number} <br /> 
         <b>Subject:</b> ${subject} <br /> 
         <b>Message:</b> ${text} 
-    `,
+    `, // HTML message
   };
+
   try {
-    const response = await mailer.sendMail(data);
+    const response = await transporter.sendMail(data);
     console.log(response);
-    res.status(200).send("Email send successfully");
+    res.status(200).send("Email sent successfully");
   } catch (error) {
     console.log(error);
-    res.status(500).send("Error proccessing charge");
+    res.status(500).send("Error processing charge");
   }
 };
