@@ -11,8 +11,7 @@ const ServicesStyle1 = () => {
             <h2>Our Services</h2>
             <div className="bar"></div>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Harness the power of AI to transform data into intelligence, automate processes, and drive innovation.
             </p>
           </div>
 

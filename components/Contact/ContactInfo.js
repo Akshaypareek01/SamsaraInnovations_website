@@ -7,7 +7,7 @@ const ContactInfo = () => {
       <div className="contact-info-area ptb-80">
         <div className="container">
           <div className="row justify-content-center">
-          <div className="col-lg-3 col-md-6 col-sm-6">
+          <div className="col-lg-4 col-md-6 col-sm-6">
               <div className="contact-info-box">
                 <div className="icon">
                   <Icon.Linkedin />
@@ -22,7 +22,7 @@ const ContactInfo = () => {
               </div>
             </div>
 
-            <div className="col-lg-3 col-md-6 col-sm-6">
+            <div className="col-lg-4 col-md-6 col-sm-6">
               <div className="contact-info-box">
                 <div className="icon">
                   <Icon.Mail />
@@ -39,7 +39,7 @@ const ContactInfo = () => {
 
          
 
-            <div className="col-lg-3 col-md-6 col-sm-6">
+            <div className="col-lg-4 col-md-6 col-sm-6">
               <div className="contact-info-box">
                 <div className="icon">
                   <Icon.Phone />
@@ -54,7 +54,7 @@ const ContactInfo = () => {
              
             </div>
 
-            <div className="col-lg-3 col-md-6 col-sm-6">
+            <div className="col-lg-4 col-md-6 col-sm-6">
               <div className="contact-info-box">
                 <div className="icon">
                   <Icon.MapPin />
